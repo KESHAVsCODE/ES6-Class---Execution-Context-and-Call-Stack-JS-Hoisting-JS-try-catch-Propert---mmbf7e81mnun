@@ -1,6 +1,6 @@
 
 
-module.exports = { API }
+
 class API {
   #secure;
 
@@ -19,3 +19,4 @@ class API {
     this.#secure = newUrl.startsWith('https');
   }
 }
+module.exports = { API }
